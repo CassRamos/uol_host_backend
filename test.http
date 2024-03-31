@@ -5,6 +5,6 @@ Content-Type: application/json
 {
   "name": "Cassiru",
   "email": "{{$random.email}}",
-  "phone": "{{$random.hexadecimal()}}",
-  "groupType": "AVENGERS"
+  "phone": "{{$random.uuid}}",
+  "groupType": "JUSTICE_LEAGUE"
 }

@@ -12,7 +12,8 @@ spring:
     console:
       enabled: true
 
+avengers: https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/vingadores.json
 justice:
   league: https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/liga_da_justica.xml
-avengers:
-  - https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/vingadores.json
+
+
