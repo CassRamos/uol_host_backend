@@ -6,5 +6,9 @@ Content-Type: application/json
   "name": "Cassiru",
   "email": "{{$random.email}}",
   "phone": "{{$random.uuid}}",
-  "groupType": "JUSTICE_LEAGUE"
+  "groupType": "AVENGERS"
 }
+
+### GET USERS
+GET http://localhost:8080/players
+Content-Type: application/json

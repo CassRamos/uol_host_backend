@@ -7,6 +7,8 @@ import cass.uol_host.model.dtos.PlayerDTO;
 import cass.uol_host.repository.PlayerRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class PlayerService {
 
@@ -27,6 +29,10 @@ public class PlayerService {
 
     private String getCodename(GroupType groupType) {
         return codenameHandler.findCodenameByGroupType(groupType);
+    }
+
+    public List<Player> getAllPlayers(){
+        return repository.findAll();
     }
 
 }
