@@ -1,0 +1,18 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:uoldb
+    driver-class-name: org.h2.Driver
+    username: user
+    password: pass
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: create-drop
+  h2:
+    console:
+      enabled: true
+
+justice:
+  league: https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/liga_da_justica.xml
+avengers:
+  - https://raw.githubusercontent.com/uolhost/test-backEnd-Java/master/referencias/vingadores.json
